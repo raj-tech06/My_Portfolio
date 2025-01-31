@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek Sahu - Full Stack Web Developer</title>
+    
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container" data-aos="fade-down">
             <!-- Profile Image -->
-            <div class="profile-img">
+            <div class="profile-img" data-aos="zoom-in">
                 <img src="img/1000203680.jpg" alt="Abhishek Sahu">
             </div>
             
@@ -19,7 +26,7 @@
             <p>Full Stack Web Developer</p>
 
             <!-- Contact Information -->
-            <div class="contact-info">
+            <div class="contact-info" data-aos="fade-up">
                 <p>Email: <a href="mailto:rjdeveloper07@gmail.com">rjdeveloper07@gmail.com</a></p>
                 <p>Mobile: 7987496842</p>
                 <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
@@ -28,63 +35,57 @@
         </div>
     </header>
 
+    <div class="container" data-aos="fade-up">
+        <h3>Skills & Technologies</h3>
+        
+        <!-- Front-End Skills -->
+        <h2>Front-End</h2>
+        <ul class="skills-list">
+            <li><i class="fab fa-html5"></i> HTML5</li>
+            <li><i class="fab fa-css3-alt"></i> CSS3</li>
+            <li><i class="fab fa-js-square"></i> JavaScript</li>
+            <li><i class="fab fa-react"></i> React.js</li>
+            <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+        </ul>
 
+        <!-- Back-End Skills -->
+        <h2>Back-End</h2>
+        <ul class="skills-list">
+            <li><i class="fab fa-node"></i> Node.js</li>
+            <li><i class="fas fa-server"></i> Express.js</li>
+            <li><i class="fas fa-database"></i> MongoDB</li>
+        </ul>
 
-<div>
-     <h3>Skills & Technologies</h3>
- 
-    <h2>Front-End</h2>
-    <ul>  
-       <li>HTML5</li>
-       <li>CSS3</li>
-       <li>JavaScript</li>
-       <li>React js</li>
-       <li>Bootstrap</li>
-    </ul>
+        <!-- Other Tools -->
+        <h2>Other Tools</h2>
+        <ul class="skills-list">
+            <li><i class="fab fa-github"></i> Git & GitHub</li>
+            <li><i class="fab fa-docker"></i> Docker</li>
+            <li><i class="fab fa-heroku"></i> Heroku</li>
+            <li><i class="fab fa-aws"></i> AWS</li>
+            <li><i class="fab fa-vercel"></i> Vercel</li>
+        </ul>
+    </div>
 
-    <h2>Back-End</h2>
-    <ul>  
-       <li>Node.js</li>
-       <li>Express.js</li>
-       <li>MongoDB</li>
-       <!-- <li>React j</li> -->
-       <!-- <li>Bootstrap</li> -->
-    </ul>
-
-    <h2>Other Tools</h2>
-    <ul>  
-       <li>Git & GitHub</li>
-       <li>Docker</li>
-       <li>Heroku</li>
-       <li>AWS</li>
-       <li>vercel</li>
-    </ul>
-
-</div>
-
-
-
-
-
-
-    <section class="projects">
+    <!-- Projects Section -->
+    <section class="projects" data-aos="fade-up">
         <div class="container">
             <h2>Projects</h2>
-            <div class="project">
+            <div class="project" data-aos="zoom-in">
                 <h3>Project 1: Portfolio Website</h3>
                 <img src="images/project1.jpg" alt="Portfolio Website" class="project-img">
                 <p>Description: A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
                 <p>Technologies: HTML, CSS, JavaScript</p>
                 <a href="#">View Project</a>
             </div>
-            <div class="project">
+            <div class="project" data-aos="zoom-in">
                 <h3>Project 2: E-commerce Web App</h3>
                 <img src="images/project2.jpg" alt="E-commerce Web App" class="project-img">
                 <p>Description: An e-commerce platform with user authentication, shopping cart, and payment integration.</p>
                 <p>Technologies: React, Node.js, MongoDB</p>
                 <a href="#">View Project</a>
             </div>
-            <div class="project">
+            <div class="project" data-aos="zoom-in">
                 <h3>Project 3: Blogging Platform</h3>
                 <img src="images/project3.jpg" alt="Blogging Platform" class="project-img">
                 <p>Description: A full-stack blogging platform where users can create, edit, and delete posts. Admins have control over content.</p>
@@ -94,40 +95,36 @@
         </div>
     </section>
 
-
-
-    
-
-
-
-
-<div><h3>Education</h3>
-    <p>Bachelor of Science in Computer Science - [University Name] - Graduated: 2022
-    Relevant Coursework: Web Development, Algorithms, Data Structures</p>
-</div>
-
-
-
-
-
-
+    <!-- Education Section -->
+    <div class="container" data-aos="fade-up">
+        <h3>Education</h3>
+        <p>Bachelor of Science in Computer Science - [University Name] - Graduated: 2022<br>
+        Relevant Coursework: Web Development, Algorithms, Data Structures</p>
+    </div>
 
     <!-- Footer Section -->
     <footer>
         <div class="container footer-container">
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up">
                 <h3>Contact Me</h3>
                 <p>If you're interested in working together or just want to chat, feel free to reach out to me!</p>
-                <p>Email: <a href="rjdeveloper07@gmail.com">your.email@example.com</a></p>
+                <p>Email: <a href="mailto:rjdeveloper07@gmail.com">rjdeveloper07@gmail.com</a></p>
             </div>
 
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up">
                 <h3>About Me</h3>
                 <p>Hi, I'm Abhishek Sahu, a passionate full-stack web developer with expertise in both front-end and back-end technologies. I enjoy building scalable and performant web applications. Here's a bit more about me and my skills:</p>
             </div>
         </div>
     </footer>
 
-
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200, // Animation duration
+            easing: 'ease-in-out', // Easing effect
+        });
+    </script>
 </body>
 </html>
